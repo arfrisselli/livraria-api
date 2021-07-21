@@ -1,10 +1,10 @@
 import Sequelize from "sequelize";
 import db from "../repositories/db.js";
 
-const Client = db.define(
-  "client",
+const Clientes = db.define(
+  "clientes",
   {
-    clientId: {
+    clienteId: {
       type: Sequelize.INTEGER,
       autoIncrement: true,
       allowNull: false,
@@ -19,4 +19,4 @@ const Client = db.define(
   { underscored: true }
 );
 
-export default Client;
+export default Clientes;

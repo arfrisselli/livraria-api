@@ -1,8 +1,8 @@
-import Client from "../models/client.model.js";
+import Clientes from "../models/client.model.js";
 
 async function createClient(client) {
   try {
-    return await Client.create(client);
+    return await Clientes.create(client);
   } catch (err) {
     throw err;
   }
