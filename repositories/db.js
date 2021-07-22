@@ -1,13 +1,13 @@
 import Sequelize from "sequelize";
 
 const sequelize = new Sequelize(
-    "postgres://popgvalt:TmPUHseepVvAPYVxKHdsCN9GWrjBqVDQ@batyr.db.elephantsql.com/popgvalt",
-    {
-        dialect: "postgres",
-        define: {
-            timestamps: false
-        }
-    }
+  "postgres://ftqrlfih:mTioA6CU-4jU1kTFRUX6WuokztRs0_2C@batyr.db.elephantsql.com/ftqrlfih",
+  {
+    dialect: "postgres",
+    define: {
+      timestamps: false,
+    },
+  }
 );
 
 export default sequelize;
